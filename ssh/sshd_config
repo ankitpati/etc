@@ -1,0 +1,21 @@
+Protocol 2
+
+SyslogFacility AUTHPRIV
+
+PermitRootLogin no
+StrictModes yes
+AllowUsers administrator
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+
+# WARNING: For RHEL/Fedora/CentOS, set to yes
+UsePAM no
+
+PrintLastLog no
+PrintMotd no
+
+AcceptEnv LANG LC_* XMODIFIERS
+
+X11Forwarding yes
+
+Subsystem sftp /usr/lib/openssh/sftp-server
