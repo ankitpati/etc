@@ -1,0 +1,2 @@
+# USBasp - USB programmer for Atmel AVR controllers
+SUBSYSTEM=="usb", ATTR{idVendor}=="16c0", ATTR{idProduct}=="05dc", MODE="0600", OWNER="ankitpati"
