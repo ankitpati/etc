@@ -1,0 +1,35 @@
+# adb protocol on Motorola Moto G (2013)
+SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e76", MODE="0600", OWNER="ankitpati"
+
+# fastboot protocol on Motorola Moto G (2013)
+SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e80", MODE="0600", OWNER="ankitpati"
+
+# adb protocol on Motorola Moto G (2017)
+SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e81", MODE="0600", OWNER="ankitpati"
+
+# adb protocol on Motorola Moto G5+
+SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e82", MODE="0600", OWNER="ankitpati"
+
+# adb protocol on Motorola Moto G5+ (USB Tethering)
+SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", ATTR{idProduct}=="2e25", MODE="0600", OWNER="ankitpati"
+
+# fastboot protocol on Motorola Moto G (2013) with LineageOS 14.1
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee7", MODE="0600", OWNER="ankitpati"
+
+# adb protocol on Samsung Galaxy Note 3 Neo
+SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", ATTR{idProduct}=="6860", MODE="0600", OWNER="ankitpati"
+
+# adb protocol on OnePlus One
+SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", ATTR{idProduct}=="6765", MODE="0600", OWNER="ankitpati"
+
+# adb protocol on OnePlus 3T
+SUBSYSTEM=="usb", ATTR{idVendor}=="2a70", ATTR{idProduct}=="9025", MODE="0600", OWNER="ankitpati"
+
+# fastboot protocol on OnePlus One
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="d00d", MODE="0600", OWNER="ankitpati"
+
+# adb protocol on Intex Aqua Turbo 4G
+SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="201d", MODE="0600", OWNER="ankitpati"
+
+# fastboot protocol on Intex Aqua Turbo 4G
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0c01", MODE="0600", OWNER="ankitpati"
