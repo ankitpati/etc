@@ -8,9 +8,6 @@ AllowUsers administrator
 PasswordAuthentication no
 ChallengeResponseAuthentication no
 
-# WARNING: For RHEL/Fedora/CentOS, set to yes
-UsePAM no
-
 PrintLastLog no
 PrintMotd no
 
@@ -18,4 +15,10 @@ AcceptEnv LANG LC_* XMODIFIERS
 
 X11Forwarding yes
 
+# For Debian/Ubuntu, use following lines
+UsePAM no
 Subsystem sftp /usr/lib/openssh/sftp-server
+
+# For RHEL/Fedora/CentOS, uncomment following lines, and comment above
+#UsePAM yes
+#Subsystem sftp /usr/libexec/openssh/sftp-server
