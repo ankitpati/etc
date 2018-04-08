@@ -2,6 +2,7 @@ Protocol 2
 
 SyslogFacility AUTHPRIV
 
+UseDNS no
 PermitRootLogin no
 StrictModes yes
 AllowUsers administrator
