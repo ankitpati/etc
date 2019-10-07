@@ -1,3 +1,3 @@
 # `/etc/`
 
-My personal `/etc/` files for Ubuntu. Customise each file before use.
+My personal `/etc/`. Customise each file before use.
