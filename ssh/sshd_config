@@ -1,25 +1,31 @@
 Protocol 2
 
 SyslogFacility AUTHPRIV
+LogLevel INFO
 
 UseDNS no
-PermitRootLogin no
-StrictModes yes
-AllowUsers administrator
-PasswordAuthentication no
-ChallengeResponseAuthentication no
+AddressFamily any
+AllowTcpForwarding yes
 
 PrintLastLog no
 PrintMotd no
 
-AcceptEnv LANG LC_* XMODIFIERS
+PermitRootLogin no
+AllowUsers administrator
+
+UsePAM yes
+
+StrictModes yes
+PasswordAuthentication no
+PermitEmptyPasswords no
+ChallengeResponseAuthentication no
+
+AcceptEnv LANG LC_* LANGUAGE XMODIFIERS
 
 X11Forwarding yes
 
 # For Debian/Ubuntu, use following lines
-UsePAM no
 Subsystem sftp /usr/lib/openssh/sftp-server
 
 # For RHEL/Fedora/CentOS, uncomment following lines, and comment above
-#UsePAM yes
 #Subsystem sftp /usr/libexec/openssh/sftp-server
