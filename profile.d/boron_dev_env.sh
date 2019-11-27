@@ -1,3 +1,5 @@
+mesg n || true
+
 function sanitize_path
 {
     # Utility function to sanitize PATH-like specifications.
