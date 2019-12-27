@@ -24,6 +24,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias tree='tree -I .git'
+alias cpan-outdated='cpan-outdated --mirror="$PERLBREW_CPAN_MIRROR"'
 alias podchecker='podchecker -warnings -warnings -warnings'
 alias bat='bat --paging=never --style=plain --wrap=never --'
 alias tohex="hexdump -ve '1/1 \"%.2x\" '"
