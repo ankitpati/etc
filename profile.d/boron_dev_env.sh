@@ -11,6 +11,7 @@ function sanitize_path
 export PERL_CPANM_OPT='--mirror https://cpan.metacpan.org/'
 export PERLBREW_CPAN_MIRROR='https://cpan.metacpan.org/'
 export PYENV_ROOT="$HOME/.pyenv"
+export NPM_PACKAGES="$HOME/.npm/packages/"
 export POWERSHELL_TELEMETRY_OPTOUT='1'
 export ANDROID_HOME="$HOME/Android/Sdk/"
 
