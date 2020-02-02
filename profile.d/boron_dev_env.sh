@@ -10,6 +10,7 @@ function sanitize_path
 
 export PERL_CPANM_OPT='--mirror https://cpan.metacpan.org/'
 export PERLBREW_CPAN_MIRROR='https://cpan.metacpan.org/'
+export PERL5LIB="$(sanitize_path "$HOME/lib/perl5/")"
 export PYENV_ROOT="$HOME/.pyenv/"
 export NPM_PACKAGES="$HOME/.npm/packages/"
 export POWERSHELL_TELEMETRY_OPTOUT='1'
