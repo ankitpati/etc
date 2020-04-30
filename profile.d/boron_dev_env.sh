@@ -17,7 +17,12 @@ export POWERSHELL_TELEMETRY_OPTOUT='1'
 export ANDROID_HOME="$HOME/Android/Sdk/"
 
 export HISTSIZE=''
-export HISTCONTROL='ignorespace:ignoredups'
+export HISTFILESIZE=''
+export HISTCONTROL='ignorespace:erasedups'
+export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
+export EDITOR='vim'
+export MERGE='vimdiff'
 
 alias ls='ls --color=auto'
 alias l='ls -CF'
@@ -26,6 +31,7 @@ alias ll='ls -alF --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+
 alias tree='tree -I ".git|node_modules"'
 alias cpan-outdated='cpan-outdated --mirror="$PERLBREW_CPAN_MIRROR"'
 alias podchecker='podchecker -warnings -warnings -warnings'
