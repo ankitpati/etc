@@ -18,8 +18,8 @@ export ANDROID_HOME="$HOME/Android/Sdk/"
 
 export HISTSIZE=''
 export HISTFILESIZE=''
-export HISTCONTROL='ignorespace:erasedups'
-export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+export HISTCONTROL='ignoreboth'
+export PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
 
 export EDITOR='vim'
 export MERGE='vimdiff'
