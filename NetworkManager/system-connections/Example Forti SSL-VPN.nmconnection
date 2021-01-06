@@ -1,0 +1,26 @@
+[connection]
+id=Example Forti SSL-VPN
+uuid=some-long-uuid
+type=vpn
+autoconnect=false
+permissions=
+timestamp=1600000000
+
+[vpn]
+gateway=fortisslvpn.example.org:443
+otp-flags=2
+password-flags=2
+trusted-cert=sometrustedcertinhex
+user=ankitpati
+service-type=org.freedesktop.NetworkManager.fortisslvpn
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+
+[proxy]
