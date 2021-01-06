@@ -17,10 +17,12 @@ service-type=org.freedesktop.NetworkManager.fortisslvpn
 [ipv4]
 dns-search=
 method=auto
+never-default=true
 
 [ipv6]
 addr-gen-mode=stable-privacy
 dns-search=
 method=auto
+never-default=true
 
 [proxy]
