@@ -1,0 +1,5 @@
+host = fortisslvpn.example.org
+port = 443
+username = ankitpati
+password = ThisIsNotMyPassword
+trusted-cert = sometrustedcertinhex
