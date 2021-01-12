@@ -22,6 +22,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT='1'
 export POWERSHELL_TELEMETRY_OPTOUT='1'
 export ANDROID_HOME="$HOME/Android/Sdk/"
 
+shopt -s histappend
 export HISTSIZE=''
 export HISTFILESIZE=''
 export HISTCONTROL='ignoreboth'
