@@ -1,0 +1,6 @@
+[metasploit]
+name=Metasploit
+baseurl=https://downloads.metasploit.com/data/releases/metasploit-framework/rpm
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Metasploit
