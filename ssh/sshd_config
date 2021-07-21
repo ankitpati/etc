@@ -24,5 +24,4 @@ AcceptEnv LANG LC_* LANGUAGE XMODIFIERS
 
 X11Forwarding yes
 
-# For Debian/Ubuntu (but not for Fedora/RHEL/CentOS), use following lines
-Subsystem sftp /usr/lib/openssh/sftp-server
+Subsystem sftp internal-sftp
