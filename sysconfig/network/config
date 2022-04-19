@@ -1,0 +1,3 @@
+# For merging with existing file only.
+# Disable netconfig DNS handling so systemd-resolved can take over.
+NETCONFIG_DNS_POLICY=""
