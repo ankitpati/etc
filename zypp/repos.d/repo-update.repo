@@ -1,0 +1,4 @@
+[repo-update]
+enabled=1
+autorefresh=1
+baseurl=https://download.opensuse.org/update/tumbleweed/

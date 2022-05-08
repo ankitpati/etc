@@ -1,0 +1,4 @@
+[repo-oss]
+enabled=1
+autorefresh=1
+baseurl=https://download.opensuse.org/tumbleweed/repo/oss/
