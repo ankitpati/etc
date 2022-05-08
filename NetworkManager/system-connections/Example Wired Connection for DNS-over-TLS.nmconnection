@@ -1,0 +1,16 @@
+[connection]
+id=Example Wired Connection for DNS-over-TLS
+type=ethernet
+
+[ethernet]
+
+[ipv4]
+ignore-auto-dns=true
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+ignore-auto-dns=true
+method=auto
+
+[proxy]

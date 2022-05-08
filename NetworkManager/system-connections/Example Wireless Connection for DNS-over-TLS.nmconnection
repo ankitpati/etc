@@ -1,0 +1,27 @@
+[connection]
+id=Example Wireless Connection for DNS-over-TLS
+type=wifi
+permissions=
+
+[wifi]
+mac-address-blacklist=
+mode=infrastructure
+ssid=Example Wireless Connection for DNS-over-TLS
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=example-password
+
+[ipv4]
+dns-search=
+ignore-auto-dns=true
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+ignore-auto-dns=true
+method=auto
+
+[proxy]
