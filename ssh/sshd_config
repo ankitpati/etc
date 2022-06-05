@@ -11,7 +11,7 @@ PrintLastLog no
 PrintMotd no
 
 PermitRootLogin no
-AllowUsers administrator
+AllowUsers administrator rtun
 
 UsePAM yes
 
