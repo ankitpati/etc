@@ -1,0 +1,17 @@
+[connection]
+id=Ethershare
+type=ethernet
+
+[ethernet]
+mac-address=FF:FF:FF:FF:FF:FF
+
+[ipv4]
+ignore-auto-dns=true
+method=shared
+
+[ipv6]
+addr-gen-mode=stable-privacy
+ignore-auto-dns=true
+method=shared
+
+[proxy]
