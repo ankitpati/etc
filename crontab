@@ -1,0 +1,4 @@
+# Meant to be merged/placed into `/etc/crontab`, `/etc/cron.d/`, `crontab -e`,
+# or wherever is the most convenient on the local system.
+
+*/5 * * * * tunnelleduser /usr/local/bin/reverse-tunnel-target
