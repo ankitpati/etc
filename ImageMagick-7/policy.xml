@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml />
+<!--
+This file restricts ImageMagick capabilities in favour of security.
+
+Deleting, blanking out, or replacing it from ankitpati/etc (this file right
+here that you're reading) will unlock all capabilities.
+
+Do this at your own risk, ideally only within containers or disposable VMs.
+-->
