@@ -1,0 +1,26 @@
+[connection]
+id=Example Wireless Connection for EAP
+type=wifi
+
+[wifi]
+mode=infrastructure
+ssid=Example Wireless Connection for EAP
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-eap
+
+[802-1x]
+eap=ttls;
+identity=contact@ankitpati.in
+password=example-password
+phase2-auth=mschapv2
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
